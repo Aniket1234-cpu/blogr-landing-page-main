@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.main1 {
+    height: 500px;
+    /* background: linear-gradient(90deg,hsl(13, 100%, 72%) 0%,hsl(353, 100%, 62%) 34% ); */
+    background-color: hsl(353, 100%, 62%);
+    background-image: url("/images/bg-pattern-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-y: -70rem;
+    background-position-x: 0px;
+    background-size: 400vh;
+    border-bottom-left-radius: 80px;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.main1 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 90px 0 90px;
+}
+
+.main1 .navbar .nav {
+    position: relative;
+    right: 350px;
+}
+
+.main1 .navbar .nav select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 80px;
+}
+
+.bt p {
+    color: white;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.bt {
+    display: flex;
+    align-items: center;
+}
+
+.bt button {
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.bt button:hover {
+    background-color: #ff7a85;
+    color: white;
+}
+
+.head {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.head h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.head p {
+    color: white;
+    padding-top: 15px;
+
+}
+
+.head .nm {
+    margin: 0 auto;
+    display: flex;
+    width: 300px;
+    margin-top: 30px;
+    position: relative;
+    left: 30px;
+
+}
+
+.head .nm .op button {
+    height: 38px;
+    width: 110px;
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+    border-radius: 19px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+
+}
+
+.head .nm .ol {
+    padding-left: 20px;
+}
+
+.head .nm .ol button {
+    height: 38px;
+    width: 110px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 19px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.nm .ol button:hover {
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+    transition: 0.3s;
+}
+
+.nm .op button:hover {
+    background-color: #ff7a85;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.main2 {
+    padding-left: 120px;
+    overflow: hidden;
+    font-family: 'Overpass', sans-serif;
+    padding-bottom: 90px;
+
+}
+
+.main2 h1 {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 40px;
+    color: hsl(208, 49%, 24%);
+}
+
+.main2 .back {
+    display: flex;
+
+}
+
+.main2 .para {
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+.main2 .shar img {
+    height: 900px;
+    position: relative;
+    left: 220px;
+    top: 50px;
+
+}
+
+/* 
+.main2 .back{
+    padding-top:100px;
+    max-width: 435px; 
+} */
+
+.main2 .para1 {
+    padding-top: 100px;
+    /* position: relative;
+    top: 40px; */
+    width: 500px;
+}
+
+.main2 .para2 {
+    padding-top: 80px;
+    width: 500px;
+
+}
+
+.main2 .para1 h2 {
+    color: hsl(208, 49%, 24%);
+    font-size: 30px;
+
+}
+
+
+.main2 .para2 h2 {
+    color: hsl(208, 49%, 24%);
+    font-size: 30px;
+
+}
+
+.main2 .para1 p {
+    font-size: 17px;
+    padding-top: 20px;
+    opacity: 70%;
+    color: hsl(208, 49%, 24%);
+    font-weight: lighter;
+}
+
+
+.main2 .para2 p {
+    font-size: 17px;
+    padding-top: 20px;
+    opacity: 70%;
+    color: hsl(208, 49%, 24%);
+    font-weight: lighter;
+}
+
+
+.main3 {
+    display: flex;
+    height: 350px;
+    background-color: hsl(237, 17%, 21%);
+    background-image: url("images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-size: 140vh;
+    background-position-y: -30rem;
+    background-position-x: -200px;
+    font-family: 'Overpass', sans-serif;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.main3 .mobile img {
+    position: relative;
+    bottom: 60px;
+    width: 30rem;
+    left: 130px;
+}
+
+.pa h2 {
+    color: white;
+    font-size: 39px;
+}
+
+.pa p {
+    color: white;
+    opacity: 80%;
+    font-size: 15px;
+}
+
+.pa {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+
+.main4 {
+    display: flex;
+    padding-top: 100px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.main4 .shar1{
+    height: 900px;
+    position: relative;
+    right: 280px;
+    top: 50px;
+}
+
+
+.main4 .para0{
+    position: relative;
+    top: 200px;
+    right: 100px;
+}
+
+.main4 .para3 {
+    padding-top: 100px;
+    /* position: relative;
+    top: 40px; */
+    width: 500px;
+}
+
+.main4 .para4 {
+    padding-top: 80px;
+    width: 500px;
+
+}
+
+.main4 .para3 h2 {
+    color: hsl(208, 49%, 24%);
+    font-size: 30px;
+
+}
+
+
+.main4 .para4 h2 {
+    color: hsl(208, 49%, 24%);
+    font-size: 30px;
+
+}
+
+.main4 .para3 p {
+    font-size: 17px;
+    padding-top: 20px;
+    opacity: 70%;
+    color: hsl(208, 49%, 24%);
+    font-weight: lighter;
+}
+
+
+.main4 .para4 p {
+    font-size: 17px;
+    padding-top: 20px;
+    opacity: 70%;
+    color: hsl(208, 49%, 24%);
+    font-weight: lighter;
+}
+
+
+.main5{
+    background-color: hsl(240, 10%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    font-family: 'Overpass', sans-serif;
+    padding: 0 140px 0 140px;
+    border-top-right-radius: 80px;
+}
+
+
+.main5 .one{
+    padding-bottom:120px;
+    cursor: pointer;
+
+}
+
+.main5 .two ul li{
+    list-style: none;
+    color: white;
+    padding-top: 10px;
+    font-size: 13px;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.main5 .two ul li:hover{
+    text-decoration: underline;
+}
+.main5 .three ul li:hover{
+    text-decoration: underline;
+}
+.main5 .four ul li:hover{
+    text-decoration: underline;
+}
+.main5 .three ul li{
+    list-style: none;
+    color: white;
+    padding-top: 10px;
+    font-size: 13px;
+    opacity: 70%;
+    cursor: pointer;
+}
+.main5 .four ul li{
+    list-style: none;
+    color: white;
+    padding-top: 10px;
+    font-size: 13px;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.main5 .two .ol1 {
+   opacity:100%;
+   font-weight: bold;
+   padding-bottom:20px;
+}
+
+.main5 .three .ol2 {
+    opacity:100%;
+    font-weight: bold;
+    padding-bottom:20px;
+ }
+ .main5 .four .ol3 {
+    opacity:100%;
+    font-weight: bold;
+    padding-bottom:20px;
+ }
